@@ -5,11 +5,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gost
-PKG_VERSION:=2.11.5
+PKG_VERSION:=2.11.2
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/ginuerzh/gost/tar.gz/v$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://github.com/qq446887609/tjy-gost/archive/refs/tags/?
 PKG_HASH:=
 
 PKG_LICENSE:=MIT
